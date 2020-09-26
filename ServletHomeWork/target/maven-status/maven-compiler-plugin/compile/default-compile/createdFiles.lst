@@ -1,3 +1,6 @@
 my\servlet\RegistrationServlet.class
-db\myDB.class
 my\servlet\StartStervlet.class
+my\servlet\UsersServlet.class
+my\servlet\models\User$UserBuilder.class
+db\myDB.class
+my\servlet\models\User.class

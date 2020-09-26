@@ -1,6 +1,7 @@
 package my.servlet;
 
 import db.myDB;
+import sun.awt.SunHints;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,12 +14,16 @@ import java.io.IOException;
 public class RegistrationServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("WEB-INF/html/registration_page.html").forward(request, response);
+        request.getRequestDispatcher("WEB-INF/html/registration.html").forward(request, response);
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        myDB.addUser(request.getParameter("exampleInputEmail1"), request.getParameter("exampleInputPassword1"));
+        myDB.addUser(request.getParameter("exampleInputFirstName"),
+                request.getParameter("exampleInputLastName"),
+                request.getParameter("exampleInputAge"),
+                request.getParameter("exampleInputEmail1"),
+                request.getParameter("exampleInputPassword1"));
         request.getRequestDispatcher("WEB-INF/html/done_page.html").forward(request, response);
     }
 }
