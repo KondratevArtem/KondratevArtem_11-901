@@ -1,5 +1,12 @@
-C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\UsersServlet.java
+C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\repositories\CrubRepository.java
+C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\servlets\LoginServlet.java
 C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\models\User.java
-C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\db\myDB.java
-C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\StartStervlet.java
-C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\RegistrationServlet.java
+C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\repositories\UsersRepository.java
+C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\repositories\UsersRepositoryJdbcImpl.java
+C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\repositories\SimpleJdbcTemplate.java
+C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\servlets\StartStervlet.java
+C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\repositories\RowMapper.java
+C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\servlets\UsersServlet.java
+C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\servlets\SearchServlet.java
+C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\servlets\RegistrationServlet.java
+C:\Users\Artem Work\Desktop\InfoCourses\Java\ServletHomeWork\src\main\java\my\servlet\servlets\ProfileServlet.java

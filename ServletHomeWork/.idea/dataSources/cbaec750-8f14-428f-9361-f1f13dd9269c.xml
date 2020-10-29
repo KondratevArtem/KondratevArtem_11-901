@@ -104,7 +104,7 @@ false America/Argentina/San_Luis
 false America/Argentina/Tucuman
 false America/Argentina/Ushuaia
 false America/Aruba
-false America/Asuncion
+true America/Asuncion
 false America/Atikokan
 true America/Atka
 false America/Bahia
@@ -376,29 +376,29 @@ false Atlantic/Reykjavik
 false Atlantic/South_Georgia
 false Atlantic/St_Helena
 false Atlantic/Stanley
-false Australia/ACT
-false Australia/Adelaide
+true Australia/ACT
+true Australia/Adelaide
 false Australia/Brisbane
-false Australia/Broken_Hill
-false Australia/Canberra
-false Australia/Currie
+true Australia/Broken_Hill
+true Australia/Canberra
+true Australia/Currie
 false Australia/Darwin
 false Australia/Eucla
-false Australia/Hobart
-false Australia/LHI
+true Australia/Hobart
+true Australia/LHI
 false Australia/Lindeman
-false Australia/Lord_Howe
-false Australia/Melbourne
-false Australia/NSW
+true Australia/Lord_Howe
+true Australia/Melbourne
+true Australia/NSW
 false Australia/North
 false Australia/Perth
 false Australia/Queensland
-false Australia/South
-false Australia/Sydney
-false Australia/Tasmania
-false Australia/Victoria
+true Australia/South
+true Australia/Sydney
+true Australia/Tasmania
+true Australia/Victoria
 false Australia/West
-false Australia/Yancowinna
+true Australia/Yancowinna
 true BDST
 false BDT
 false BNT
@@ -612,7 +612,7 @@ false KRAST
 false KRAT
 false KST
 false Kwajalein
-false LHDT
+true LHDT
 false LHST
 false LIGT
 false LINT
@@ -674,7 +674,7 @@ false PST
 true PST8PDT
 false PWT
 true PYST
-false PYT
+true PYT
 true Pacific/Apia
 true Pacific/Auckland
 false Pacific/Bougainville
@@ -700,7 +700,7 @@ false Pacific/Marquesas
 false Pacific/Midway
 false Pacific/Nauru
 false Pacific/Niue
-false Pacific/Norfolk
+true Pacific/Norfolk
 false Pacific/Noumea
 false Pacific/Pago_Pago
 false Pacific/Palau
@@ -785,7 +785,7 @@ false Z
 false Zulu
 true posixrules
 </TimeZones>
-      <StartupTime>1600840565</StartupTime>
+      <StartupTime>1601668139</StartupTime>
     </root>
     <database id="2" parent="1" name="11-901">
       <ObjectId>16393</ObjectId>
@@ -799,7 +799,7 @@ true posixrules
     <database id="4" parent="1" name="servlet">
       <ObjectId>16426</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>570</IntrospectionStateNumber>
+      <IntrospectionStateNumber>580</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|16479|16481|1
 </Relations>
@@ -853,7 +853,7 @@ true posixrules
       <Comment>standard public schema</Comment>
       <StateNumber>276</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>571</IntrospectionStateNumber>
+      <IntrospectionStateNumber>581</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="17" parent="4" name="heap">
@@ -932,7 +932,7 @@ true posixrules
     <table id="30" parent="16" name="users">
       <ObjectId>16481</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>569</StateNumber>
+      <StateNumber>579</StateNumber>
     </table>
     <column id="31" parent="30" name="id">
       <Position>1</Position>
@@ -972,14 +972,20 @@ true posixrules
       <StateNumber>569</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="37" parent="30" name="users_pkey">
+    <column id="37" parent="30" name="uuid">
+      <Position>7</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>579</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="38" parent="30" name="users_pkey">
       <ObjectId>16488</ObjectId>
       <StateNumber>569</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="38" parent="30" name="users_pkey">
+    <key id="39" parent="30" name="users_pkey">
       <ObjectId>16489</ObjectId>
       <StateNumber>569</StateNumber>
       <ColNames>id</ColNames>

@@ -13,4 +13,6 @@ public class User {
     private String lastName;
     private Integer age;
     private String email;
+    private String password;
+    private String uuid;
 }

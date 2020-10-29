@@ -7,5 +7,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/servlet</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="@unidatabase.cf9849dpukww.us-east-1.rds.amazonaws.com" uuid="6d852a91-110e-4f46-a453-3571db712142">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://unidatabase.cf9849dpukww.us-east-1.rds.amazonaws.com</jdbc-url>
+    </data-source>
   </component>
 </project>

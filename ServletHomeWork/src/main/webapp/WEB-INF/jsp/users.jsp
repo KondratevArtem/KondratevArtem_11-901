@@ -10,6 +10,7 @@
     <title>Users Table</title>
 </head>
 <body>
+
 <table class="table">
     <thead class="thead-dark">
     <tr>
@@ -32,5 +33,8 @@
     </c:forEach>
     </tbody>
 </table>
+<div class="container">
+    <a class="btn btn-primary btn-lg container"  href="/registration" role="button">Регистрация</a>
+</div>
 </body>
 </html>

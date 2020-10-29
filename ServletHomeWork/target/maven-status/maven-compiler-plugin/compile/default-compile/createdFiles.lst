@@ -1,6 +1,13 @@
-my\servlet\RegistrationServlet.class
-my\servlet\StartStervlet.class
-my\servlet\UsersServlet.class
+my\servlet\repositories\RowMapper.class
+my\servlet\repositories\SimpleJdbcTemplate.class
+my\servlet\repositories\CrubRepository.class
+my\servlet\servlets\StartStervlet.class
 my\servlet\models\User$UserBuilder.class
-db\myDB.class
+my\servlet\repositories\UsersRepositoryJdbcImpl.class
 my\servlet\models\User.class
+my\servlet\servlets\LoginServlet.class
+my\servlet\servlets\RegistrationServlet.class
+my\servlet\servlets\SearchServlet.class
+my\servlet\servlets\UsersServlet.class
+my\servlet\repositories\UsersRepository.class
+my\servlet\servlets\ProfileServlet.class
