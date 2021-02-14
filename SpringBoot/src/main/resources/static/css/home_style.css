@@ -1,0 +1,62 @@
+main {
+    padding-top: 50px;
+}
+
+main .container .row h1 {
+    padding: 15px 0 10px 0;
+    color: white;
+    font-family: 'Goldman', cursive;
+}
+
+main .row .col-6 .float-right a {
+    margin-top: 37px;
+    color: white;
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #000000;
+    text-decoration: none;
+}
+ul.breadcrumb li h2 {
+    font-weight: bold;
+}
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #6e6e6e;
+    text-decoration: none;
+}
+
+.sticky {
+    position: fixed;
+}

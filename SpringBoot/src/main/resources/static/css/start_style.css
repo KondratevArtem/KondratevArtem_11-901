@@ -1,0 +1,100 @@
+
+main .container-fluid {
+    padding: 0;
+}
+
+main .container-fluid h1 {
+    font-family: 'Goldman', cursive;
+}
+
+main .container .row h1 {
+    padding: 15px 0 10px 0;
+    color: white;
+    font-family: 'Goldman', cursive;
+}
+
+main .row .col-6 .float-right a {
+    margin-top: 37px;
+    color: white;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul.breadcrumb li h2 {
+    font-weight: bold;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #6e6e6e;
+    text-decoration: none;
+}
+
+/* Style the tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    border-radius: 8px 8px 0 0;
+    padding: 10px 50px 15px 50px;
+    text-align: left;
+}
+
+.tabcontent mark {
+    background-color: #2d2f32;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Style each tab content individually */
+#Volkswagen {
+    background-color: black;
+}
+#Audi {
+    background-color: black;
+}
+#Porsche {
+    background-color: black;
+}
+#Bentley {
+    background-color: black;
+}

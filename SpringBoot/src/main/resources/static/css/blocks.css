@@ -1,0 +1,232 @@
+.main-post {
+    width: auto;
+    height: auto;
+    /*margin: 120px auto;*/
+}
+
+.main-post .main-post__head {
+    background: rgb(255, 255, 255);
+    border-radius: 5px 5px 0 0;
+}
+
+.main-post .main-post__head h3 {
+    color: #000000;
+    padding: 8px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: left;
+}
+
+.main-post .main-post__head .create {
+    text-align: center;
+    padding: 8px 0 8px 0;
+}
+
+.main-post .main-post__head .create input {
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+    padding: 12px 0;
+    width: 100%;
+}
+
+.main-post .main-post__head .create input[name="headerInput"] {
+    padding-left: 10px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    width: 98%;
+}
+
+.main-post .main-post__middle {
+    background: rgb(255, 255, 255);
+}
+
+.main-post .main-post__middle input {
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+    padding: 12px 0;
+    width: 46.5%;
+}
+
+.main-post .main-post__middle .create {
+    text-align: center;
+    padding: 8px 0 8px 0;
+}
+
+
+.main-post .main-post__middle .create textarea {
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+    padding: 12px 0;
+    width: 100%;
+    height: 300px;
+}
+
+.main-post .main-post__middle .create textarea[name="textInput"] {
+    padding-left: 10px;
+    font-weight: 550;
+    font-size: medium;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    width: 98%;
+}
+
+.main-post .main-post__middle .central {
+    margin: 0 0 0 0;
+    padding: 0 0 8px 8px;
+}
+
+
+.main-post .main-post__middle .central input {
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    padding: 10px 0;
+    width: 49.3%;
+}
+
+.main-post .main-post__middle .central input[name="tegsInput"] {
+    padding-left: 10px;
+    font-weight: 550;
+    font-size: medium;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+}
+
+.main-post .main-post__middle .central select {
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    font-size: medium;
+    font-weight: 550;
+    font-family: 'Nunito', sans-serif;
+    width: 49.3%;
+}
+
+.main-post .main-post__middle .central select[name="categoryInput"]{
+    padding: 12px 0 12px 10px;
+    margin: 0;
+    font-weight: 550;
+    font-size: medium;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+}
+
+.main-post .main-post__middle p {
+    color: #000000;
+    font-weight: 550;
+    font-size: medium;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 12px 24px 12px 24px;
+    text-align: left;
+}
+
+.main-post .main-post__foot {
+    background: rgb(255, 255, 255);
+    border-radius: 0 0 5px 5px;
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.main-post .main-post__foot .left {
+    float: left;
+    width: 50%;
+}
+
+.main-post .main-post__foot .left button {
+    padding: 8px 0 8px 8px;
+}
+
+.main-post .main-post__foot .right {
+    float: right;
+    width: 50%;
+}
+
+.main-post .main-post__foot .right button {
+    text-align: right;
+    padding: 8px 12px 8px 8px;
+}
+
+.main-post .main-post__foot .right button span {
+    padding-right: 10px;
+    padding-left: 15px;
+}
+
+.main-post .main-post__foot .right form {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.main-post .main-post__foot .create {
+    text-align: center;
+    padding: 8px 0 8px 0;
+}
+
+.main-post .main-post__foot .create input[type="submit"] {
+    background: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 12px;
+    border: none;
+    color: #ffffff;
+    font-weight: 750;
+    font-size: large;
+    font-family: 'Goldman', cursive;
+    padding: 8px 8px 8px 8px;
+    width: 98%;
+    cursor:pointer;
+}
+
+.sidenav {
+    width: auto;
+    height: auto;
+    position: fixed;
+    border-radius: 5px 5px 5px 5px;
+    background: #ffffff;
+}
+
+.sidenav a {
+    padding: 5px 3em 5px 1em;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+}
+
+.sidenav a.active {
+    border-radius: 5px 5px 0 0;
+    margin-top: 0;
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.sidenav a:hover {
+    color: #707070;
+    text-decoration: none;
+}

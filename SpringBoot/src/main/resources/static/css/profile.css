@@ -1,0 +1,220 @@
+main {
+    padding-top: 50px;
+}
+
+main .container .row h1 {
+    padding: 15px 0 10px 0;
+    color: white;
+    font-family: 'Goldman', cursive;
+}
+
+main .row .col-6 .float-right a {
+    margin-top: 37px;
+    color: white;
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #000000;
+    text-decoration: none;
+}
+ul.breadcrumb li h2 {
+    font-weight: bold;
+}
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #6e6e6e;
+    text-decoration: none;
+}
+
+.sticky {
+    position: fixed;
+}
+
+.topics {
+    background-color: black;
+    border-color: black;
+}
+
+.main-card {
+    width: auto;
+    height: auto;
+}
+
+.main-card .main-card__head {
+    background: rgb(0, 0, 0);
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.main-card .main-card__head img {
+    text-align: left;
+    margin: 0 10px 0 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.main-card .main-card__head h3 {
+    color: #E7E7E7;
+    margin: 5px 0 5px 0;
+    padding: 0;
+    font-family: 'Goldman', cursive;
+}
+
+.main-card .main-card__head input {
+    background: rgba(250,250,250,0.80);
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    color: black;
+    outline: none;
+    padding: 12px 0;
+}
+
+.main-card .main-card__head input[name="usernameInput"] {
+    text-align: center;
+    font-size: large;
+    font-family: 'Goldman', cursive;
+    margin: 0;
+    width: 35%;
+}
+
+.main-card .main-card__middle {
+    background: rgb(255, 255, 255);
+    padding: 5px 10px 5px 10px;
+}
+
+.main-card .main-card__middle input {
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    padding: 12px 0;
+}
+
+.main-card .main-card__middle input[type="text"] {
+    text-align: center;
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+    margin: 10px -7px 10px 17px;
+    width: 46.5%;
+}
+
+.main-card .main-card__middle p {
+    color: #000000;
+    font-weight: 550;
+    font-size: medium;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 8px 5px 5px 8px;
+    text-align: left;
+}
+
+.main-card .main-card__middle mark {
+    background-color: #2d2f32;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 5px 5px 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.main-card .main-card__middle .middle__form {
+    margin: 20px 0 20px 0;
+}
+.main-card .main-card__middle .middle__form ::-webkit-input-placeholder {
+    color: #25262a;
+}
+.main-card .main-card__middle .middle__form :-moz-placeholder {
+    color: #25262a;
+}
+.main-card .main-card__middle .middle__form ::-moz-placeholder {
+    color: #25262a;
+}
+.main-card .main-card__middle .middle__form :-ms-input-placeholder {
+    color: #25262a;
+}
+
+.main-card .main-card__middle .middle__form p {
+    color: #000000;
+    font-weight: 550;
+    font-size: medium;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 12px 24px 12px 24px;
+    text-align: left;
+}
+
+.main-card .main-card__foot {
+    background: rgb(255, 255, 255);
+    border-radius: 0 0 8px 8px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+}
+
+.main-card .main-card__foot a {
+    background: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 12px;
+    color: #ffffff;
+    font-weight: 750;
+    font-family: 'Nunito', sans-serif;
+    padding: 8px 8px 8px 8px;
+    width: 97%;
+    cursor:pointer;
+}
+
+.main-card .main-card__foot input[type="submit"] {
+    background: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 12px;
+    border: none;
+    color: #ffffff;
+    font-weight: 750;
+    font-size: large;
+    font-family: 'Goldman', cursive;
+    padding: 8px 8px 8px 8px;
+    width: 95%;
+    cursor:pointer;
+}
+
+.main-card .main-card__foot a:hover {
+    color: #b0b0b0;
+}
